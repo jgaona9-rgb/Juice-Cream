@@ -1,0 +1,108 @@
+.sampledownload
+{
+	float: right;
+}
+.loader {
+    text-align:center;
+	display: none;
+}
+.error-msg {
+	display: none;
+	font-size: 12px;
+	color: #f00;
+}
+.error {
+	font-size: 12px;
+	color: #f00;
+	display: none;
+}
+.logo-error {
+	font-size: 12px;
+	color: #f00;
+	display: none;
+}
+ul.navbar-nav{
+	padding: 0px;
+}
+
+.inactive_style {
+    /*background-color: #999999;*/
+}
+.inactive {
+	display: none;
+}
+.active {
+	display: block;
+}
+.panel.panel-default.forgot-pass {
+	background: #f8fafc;
+	border: 1px solid #ddd;
+}
+.forgot-pass .panel-body{
+	padding: 50px 0px 35px 0px;
+
+}
+
+.center{
+	text-align: center;
+}
+
+.align-left{
+	text-align: left;
+}
+.success-btn{
+	font-size: 15px;
+    padding: 8px 13px;
+    border-radius: 10px;
+    width: 100px;
+    margin: 15px 0px;
+}
+.plan-btn{
+	outline: none;
+}
+.plan-btn.inactivebtn {
+  opacity: 0.65;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.ajax-loader{
+	text-align: center;
+}
+.social_label {
+    font-size: 10px;
+}
+.disable{
+	pointer-events: none;
+    opacity: 0.6;
+}
+.close-overlay {
+	padding: 0px 3px !important;
+    border: 2px #fff solid !important;
+    border-radius: 50%;
+    top: 9px;
+    position: absolute;
+    right: 8px;
+}
+/*.inactive-div{
+	opacity: 0.8;
+    background: #cfd0d4;
+    pointer-events: none;
+}*/
+.deleteFanGate{
+	cursor: pointer;
+}
+.additional_user{
+	color:#666;
+	text-decoration:none;
+}
+.additional_mixgate{
+	margin-bottom:15px !important;
+}
+
+.non-pro{
+	color:#495159 !important;
+}
+
+.fan-counter{
+	margin-left: -30px;
+}

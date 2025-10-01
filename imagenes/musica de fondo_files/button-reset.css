@@ -1,0 +1,532 @@
+/*Button CSS*/
+.button {
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-family: "hypefontblack";
+  display: inline-block;
+  padding: 6px 18px 6px;
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border-radius: 3px;
+  outline: none !important;
+}
+.button:focus,
+.button:hover {
+  text-decoration: none;
+}
+.button:focus,
+.button.focus {
+  outline: 0;
+}
+.button.disabled,
+.button:disabled {
+  opacity: 0.65;
+}
+.button:active,
+.button.active {
+  background-image: none;
+}
+a.button.disabled {
+  pointer-events: none;
+}
+.button i {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+/*Button Type CSS*/
+.button-xxlg {
+  font-size: 18px;
+  padding: 20px 35px;
+}
+.button-xlg {
+  font-size: 16px;
+  padding: 15px 30px;
+}
+.button-lg {
+  font-size: 14px;
+  padding: 10px 25px 9px;
+}
+.button-sm {
+  font-size: 10px;
+}
+/*Primary Button CSS*/
+.button-primary {
+  color: #fff;
+  background-color: #12db7d;
+  border-color: #12db7d;
+}
+.button-primary:hover {
+  color: #fff;
+  background-color: #0ed276;
+  border-color: #0ed276;
+}
+.button-primary.disabled,
+.button-primary:disabled {
+  background-color: #50e9a2;
+  border-color: #50e9a2;
+}
+.button-primary:active,
+.button-primary.active {
+  background-color: #0ed276;
+  border-color: #0ed276;
+}
+/*Secondary Button CSS*/
+.button-secondary {
+  color: #b1b8bf;
+  background-color: #ffffff;
+  border-color: #b1b8bf;
+}
+.button-secondary:hover {
+  color: #989fa7;
+  background-color: #ffffff;
+  border-color: #989fa7;
+}
+.button-secondary.disabled,
+.button-secondary:disabled {
+  color: #e3e3e3;
+  background-color: #ffffff;
+  border-color: #e3e3e3;
+}
+.button-secondary:active,
+.button-secondary.active {
+  color: #989fa7;
+  background-color: #ffffff;
+  border-color: #989fa7;
+}
+.button-next {
+  color: #fff;
+  background-color: #d7dbe0;
+  border-color: #d7dbe0;
+}
+.button-next:hover {
+  color: #fff;
+  background-color: #989fa7;
+  border-color: #989fa7;
+}
+.button-next.disabled,
+.button-next:disabled {
+  background-color: #d7dbe0;
+  border-color: #d7dbe0;
+}
+.button-next:active,
+.button-next.active {
+  background-color: #989fa7;
+  border-color: #989fa7;
+}
+/*Highlight Button CSS*/
+.button-highlight {
+  color: #fff;
+  background-color: #f43010;
+  border-color: #f43010;
+}
+.button-highlight:hover {
+  color: #fff;
+  background-color: #e90000;
+  border-color: #e90000;
+}
+.button-highlight.disabled,
+.button-highlight:disabled {
+  background-color: #ff8672;
+  border-color: #ff8672;
+}
+.button-highlight:active,
+.button-highlight.active {
+  background-color: #e90000;
+  border-color: #e90000;
+}
+/*Warning Button CSS*/
+.button-warning {
+  color: #fff;
+  background-color: #ffc000;
+  border-color: #ffc000;
+}
+.button-warning:hover {
+  color: #fff;
+  background-color: #eab103;
+  border-color: #eab103;
+}
+.button-warning.disabled,
+.button-warning:disabled {
+  background-color: #fed559;
+  border-color: #fed559;
+}
+.button-warning:active,
+.button-warning.active {
+  background-color: #eab103;
+  border-color: #eab103;
+}
+/*Light Button CSS*/
+.button-light {
+  color: #fff;
+  background-color: #b1b8bf;
+  border-color: #b1b8bf;
+}
+.button-light:hover {
+  color: #fff;
+  background-color: #98a2ac;
+  border-color: #98a2ac;
+}
+.button-light.disabled,
+.button-light:disabled {
+  background-color: #bfc4c8;
+  border-color: #bfc4c8;
+}
+.button-light:active,
+.button-light.active {
+  background-color: #98a2ac;
+  border-color: #98a2ac;
+}
+/*Dark Button CSS*/
+.button-dark {
+  color: #fff;
+  background-color: #385163;
+  border-color: #385163;
+}
+.button-dark:hover {
+  color: #fff;
+  background-color: #294152;
+  border-color: #294152;
+}
+.button-dark.disabled,
+.button-dark:disabled {
+  background-color: #4e687b;
+  border-color: #4e687b;
+}
+.button-dark:active,
+.button-dark.active {
+  background-color: #294152;
+  border-color: #294152;
+}
+/*Inverse Button CSS*/
+.button-inverse {
+  color: #fff;
+  background-color: #3f4a54;
+  border-color: #3f4a54;
+}
+.button-inverse:hover {
+  color: #fff;
+  background-color: #2a3036;
+  border-color: #2a3036;
+}
+.button-inverse.disabled,
+.button-inverse:disabled {
+  background-color: #5b6f80;
+  border-color: #5b6f80;
+}
+.button-inverse:active,
+.button-inverse.active {
+  background-color: #2a3036;
+  border-color: #2a3036;
+}
+/*Light Gray Button CSS*/
+.button-morelight {
+  color: #fff;
+  background-color: #d7dbe0;
+  border-color: #d7dbe0;
+}
+.button-morelight:hover {
+  color: #fff;
+  background-color: #bec4cc;
+  border-color: #bec4cc;
+}
+.button-morelight.disabled,
+.button-morelight:disabled {
+  background-color: #e2e4e8;
+  border-color: #e2e4e8;
+}
+.button-morelight:active,
+.button-morelight.active {
+  background-color: #bec4cc;
+  border-color: #bec4cc;
+}
+/*Outline Primary Button CSS*/
+.button-outline-primary {
+  color: #12db7d;
+  background-color: transparent;
+  border-color: #12db7d;
+}
+.button-outline-primary:hover {
+  color: #0ed276;
+  background-color: transparent;
+  border-color: #0ed276;
+}
+.button-outline-primary.disabled,
+.button-outline-primary:disabled {
+  background-color: transparent;
+  border-color: #50e9a2;
+  color: #50e9a2;
+}
+.button-outline-primary:active,
+.button-outline-primary.active {
+  background-color: transparent;
+  border-color: #0ed276;
+  color: #0ed276;
+}
+/*Outline Highlight Button CSS*/
+.button-outline-highlight {
+  color: #f43010;
+  background-color: transparent;
+  border-color: #f43010;
+}
+.button-outline-highlight:hover {
+  color: #e90000;
+  background-color: transparent;
+  border-color: #e90000;
+}
+.button-outline-highlight.disabled,
+.button-outline-highlight:disabled {
+  background-color: transparent;
+  border-color: #ff8672;
+  color: #ff8672;
+}
+.button-outline-highlight:active,
+.button-outline-highlight.active {
+  background-color: transparent;
+  border-color: #e90000;
+  color: #e90000;
+}
+/*Outline Light Gray Button CSS*/
+.button-outline-morelight {
+  background-color: transparent;
+  border-color: #b1b8bf;
+  color: #b1b8bf;
+}
+.button-outline-morelight:hover {
+  background-color: transparent;
+  border-color: #3f4a54;
+  color: #3f4a54;
+}
+.button-outline-morelight.disabled,
+.button-outline-morelight:disabled {
+  background-color: transparent;
+  border-color: #d7dbe0;
+  color: #d7dbe0;
+}
+.button-outline-morelight:active,
+.button-outline-morelight.active {
+  background-color: transparent;
+  border-color: #3f4a54;
+  color: #3f4a54;
+}
+/*Outline Donation Button CSS*/
+.button-outline-donation {
+  color: #169bd7;
+  background-color: transparent;
+  border-color: #169bd7;
+}
+.button-outline-donation:hover {
+  color: #108fc8;
+  background-color: transparent;
+  border-color: #108fc8;
+}
+.button-outline-donation.disabled,
+.button-outline-donation:disabled {
+  background-color: transparent;
+  border-color: #6fcffa;
+  color: #6fcffa;
+}
+.button-outline-donation:active,
+.button-outline-donation.active {
+  background-color: transparent;
+  border-color: #108fc8;
+  color: #108fc8;
+}
+/*Text Color CSS*/
+.text-primary {
+  color: #12db7d;
+}
+.text-highlight {
+  color: #f43010;
+}
+.text-warning {
+  color: #ffc000;
+}
+/*Social Button CSS*/
+/*Facebook*/
+.button-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+.button-facebook:hover {
+  color: #fff;
+  background-color: #294888;
+  border-color: #294888;
+}
+/*Instagram*/
+.button-instagram {
+  color: #fff;
+  background-color: #2a5b83;
+  border-color: #2a5b83;
+}
+.button-instagram:hover {
+  color: #fff;
+  background-color: #194970;
+  border-color: #194970;
+}
+/*Twitter*/
+.button-twitter {
+  color: #fff;
+  background-color: #00aced;
+  border-color: #00aced;
+}
+.button-twitter:hover {
+  color: #fff;
+  background-color: #009fdb;
+  border-color: #009fdb;
+}
+/*Spotify*/
+.button-spotify {
+  color: #fff;
+  background-color: #1fd760;
+  border-color: #1fd760;
+}
+.button-spotify:hover {
+  color: #fff;
+  background-color: #32ce69;
+  border-color: #32ce69;
+}
+/*Deezer*/
+.button-deezer {
+  color: #fff;
+  background-color: #fe3b72;
+  border-color: #fe3b72;
+}
+.button-deezer:hover {
+  color: #fff;
+  background-color: #f22760;
+  border-color: #f22760;
+}
+/*FB Messenger*/
+.button-fb-messenger {
+  color: #fff;
+  background-color: #0084ff;
+  border-color: #0084ff;
+}
+.button-fb-messenger:hover {
+  color: #fff;
+  background-color: #0e83ef;
+  border-color: #0e83ef;
+}
+/*Twitch*/
+.button-twitch {
+  color: #fff;
+  background-color: #9146ff;
+  border-color: #9146ff;
+}
+.button-twitch:hover {
+  color: #fff;
+  background-color: #7313ff;
+  border-color: #7313ff;
+}
+/*Apple*/
+.button-apple-music {
+  color: #fff;
+  background: #fa57c1;
+  background: -moz-linear-gradient(left, #fa57c1 0%, #69a6f9 100%);
+  background: -webkit-linear-gradient(left, #fa57c1 0%, #69a6f9 100%);
+  background: linear-gradient(to right, #fa57c1 0%, #69a6f9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa57c1', endColorstr='#69a6f9',GradientType=1 );
+  border: 0;
+  line-height: 32px !important;
+}
+.button-apple-music:hover,
+.button-apple-music:active {
+  color: #fff;
+  background: #f347b7;
+  background: -moz-linear-gradient(left, #f347b7 0%, #4e93f0 100%);
+  background: -webkit-linear-gradient(left, #f347b7 0%, #4e93f0 100%);
+  background: linear-gradient(to right, #f347b7 0%, #4e93f0 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f347b7', endColorstr='#4e93f0',GradientType=1 );
+  border: 0;
+}
+/*MixCloud*/
+.button-mixcloud {
+  color: #fff;
+  background-color: #4fa6d3;
+  border-color: #4fa6d3;
+}
+.button-mixcloud:hover {
+  color: #fff;
+  background-color: #4196c2;
+  border-color: #4196c2;
+}
+/*Instagram 1*/
+.button-instagram-1 {
+  color: #fff;
+  background-color: #3798f0;
+  border-color: #3798f0;
+}
+.button-instagram-1:hover {
+  color: #fff;
+  background-color: #2485dd;
+  border-color: #2485dd;
+}
+/*Donation*/
+.button-donation {
+  color: #fff;
+  background-color: #169bd7;
+  border-color: #169bd7;
+}
+.button-donation:hover {
+  color: #fff;
+  background-color: #108fc8;
+  border-color: #108fc8;
+}
+/*Apple Music*/
+.button-applemusic {
+  color: #fff;
+  background-color: #1fd760;
+  border-color: #1fd760;
+}
+.button-applemusic:hover {
+  color: #fff;
+  background-color: #32ce69;
+  border-color: #32ce69;
+}
+/*TikTok*/
+.button-tiktok-1 {
+  color: #fff;
+  background-color: #fe2c55;
+  border-color: #fe2c55;
+}
+.button-tiktok-1:hover {
+  color: #fff;
+  background-color: #ef2950;
+  border-color: #ef2950;
+}
+/*Bandcamp*/
+.button-bandcamp-1 {
+  color: #fff;
+  background-color: #629aa9;
+  border-color: #629aa9;
+}
+.button-bandcamp-1:hover {
+  color: #fff;
+  background-color: #629aa9;
+  border-color: #629aa9;
+}
+/*Twitch*/
+.button-twitch-1 {
+  color: #fff;
+  background-color: #9146ff;
+  border-color: #9146ff;
+}
+.button-twitch-1:hover {
+  color: #fff;
+  background-color: #9146ff;
+  border-color: #9146ff;
+}

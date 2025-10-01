@@ -1,0 +1,123 @@
+/*
+ * container for positioning
+ */
+.notify {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 350px;
+}
+
+/* Positions
+========================================================================== */
+.notify-top-right,
+.notify-bottom-right {
+  left: auto;
+  right: 10px;
+}
+.notify-top-center,
+.notify-bottom-center {
+  left: 50%;
+  margin-left: -175px;
+}
+.notify-bottom-left,
+.notify-bottom-right,
+.notify-bottom-center {
+  top: auto;
+  bottom: 10px;
+}
+
+/* Responsiveness
+========================================================================== */
+/* Phones portrait and smaller */
+@media (max-width: 479px) {
+  /*
+     * Fit in small screen
+     */
+  .notify {
+    left: 10px;
+    right: 10px;
+    width: auto;
+    margin: 0;
+  }
+}
+
+/* Sub-object: `notify-message`
+========================================================================== */
+.notify-message {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+}
+
+.notify .alert-default {
+  background: #0ed276;
+  border: 1px solid #0ed276;
+}
+.notify-message div {
+  padding-right: 20px;
+} 
+
+
+/*Toast Alert*/
+.hype-toast {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 1rem;
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 12px;
+  box-shadow: 0 1px 2px 0 rgba(26, 29, 32, 0.08);
+  font-size: 14px;
+  font-weight: 500;
+  color: #0D0C0C;
+  margin-bottom: 12px;
+}
+.hype-toast-success {
+  background: #DCFCE7;
+  border-color: #86EFAC;
+}
+.hype-toast-warning {
+  background: #FFEDD5;
+  border-color: #FDBA74;
+}
+.hype-toast-danger {
+  background: #FEE2E2;
+  border-color: #FCA5A5;
+}
+.hype-toast-info {
+  background: #E0F0FE;
+  border-color:  #7DCBFC;
+}
+.hype-toast-body {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+.hype-toast-body > img.icon {
+  flex-shrink: 0 !important;
+  width: 24px;
+  height: 24px;
+}
+.hype-toast .btn-close {
+  box-sizing: content-box;
+  width: 0.75rem;
+  height: 0.75rem;
+  padding: 0.25rem 0.25rem;
+  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+  border: 0;
+  border-radius: 0;
+  opacity: .75;
+  margin-left: auto;
+  flex-shrink: 0;
+  background-size: 10px;
+}
+.hype-toast .btn-close:hover, .hype-toast .btn-close:focus {
+  opacity: 1;
+  text-decoration: none;
+}

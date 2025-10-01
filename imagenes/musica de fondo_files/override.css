@@ -1,0 +1,169 @@
+.select .bootstrap-select.btn-group .dropdown-menu {
+    max-width: 100%;
+}
+
+/******* Track Upload ***************/
+#targetLayermp3, #invalidnotivemp3, #invalidnotive, #targetLayer
+{
+    display: none;
+}
+
+/*********social **********/
+.search-icon-social {
+ /*   position: absolute;
+    right: 8px;
+    top: 8px; */
+}
+.loader
+{
+    display: none;
+}
+.select .loader {
+  /*  position: absolute;
+    right: -40px;
+    top: -4px;
+     */
+}
+/*********social **********/
+.has-error .error-msg {
+    background: #f43010 none repeat scroll 0 0;
+    border: 1px solid #d7dfe6;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(132, 146, 156, 0.5);
+    color: #ffffff;
+    font-size: 12px;
+    left: 10px;
+    margin-top: -6px;
+    max-width: calc(100% - 20px);
+    padding: 10px;
+    position: absolute;
+    z-index: 9;
+    word-break: break-word;
+}
+.has-error .error-msg a {
+   color: #ffffff;
+   text-decoration: underline;
+}
+.has-error-updated .error-msg {
+    background: #f43010 none repeat scroll 0 0;
+    border: 1px solid #d7dfe6;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(132, 146, 156, 0.5);
+    color: #ffffff;
+    font-size: 12px;
+    left: 125px;
+    margin-top: -6px;
+    max-width: calc(100% - 20px);
+    padding: 10px;
+    position: absolute;
+    z-index: 9;
+}
+
+.has-error-updated .error-msg:before {
+    border-bottom: 5px solid #f43010;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    content: "";
+    position: absolute;
+    top: -5px;
+}
+.disabled-btn
+{
+    cursor: default;
+}
+
+/***** Social Fangate page *************/
+/*.twitter-follow-button {
+    background: #1b95e0 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 12px 9px;
+    text-decoration: none;
+}*/
+
+.count-o {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #8799a6;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 24px;
+    margin: 0 0 0 6px;
+    min-height: 24px;
+    min-width: 15px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    visibility: visible;
+}
+
+.twitter-follow-button i {
+    background: transparent url("/images/twitter-icon.png") no-repeat scroll 0 0 / 14px auto;
+    display: inline-block;
+    height: 18px;
+    position: relative;
+    text-align: center;
+    top: 1px;
+    vertical-align: middle;
+    width: 18px;
+}
+.count-o i, .count-o u {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent #66757f transparent -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 5px 5px 5px 0;
+    height: 0;
+    left: 0;
+    line-height: 0;
+    margin: -5px 0 0 -5px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+#count {
+    color: #292f33;
+    padding: 0 7px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/**************** Mixcloud Fangate Page ***************/
+.vert-offset-top-1{
+    margin-top: 1em;
+}
+[class*="field-contianer-"] [id*="loader"] {
+  right: 18px;
+}
+
+/********** Generic Class *************************/
+.form-relative
+{
+    position: relative;
+}
+
+.track-frame .youtube-iframe iframe {
+  display: block;
+  height: 300px;
+  width: 100%;
+}
+.track-name {
+  word-wrap: break-word;
+}
+.div-notificationbar {
+    background: #f43010;
+    color: #fff;
+    display: block;
+    padding: 5px;
+    position: fixed;
+    text-align: center;
+    top: 66px;
+    width: 100%;
+    z-index: 1;
+    font-size: 12px;
+    height: auto!important;
+}
